@@ -134,7 +134,7 @@ async def on_message(message):
         await message.channel.send('У вас есть возможность сыграть в короля горы. Очень интересный режим. Ваша задача продержатся на плите(которая находится на вершине столба) 10 секунд. Чтобы туда попасть возьмите компас в руки, потом развлечения, потом царь горы')
 
     if message.content.startswith('/donate'):
-        await message.channel.send('Донат по данной ссылке: https://marsnmine.easydonate.ru/')
+        await message.channel.send('Донат по данной ссылке: https://marsh-mine.easydonate.ru/')
 
 
 
